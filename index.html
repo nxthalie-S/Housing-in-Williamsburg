@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title> Housing in Williamsburg</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1> Housing in Williamsburg </h1>
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1/4</div>
+        <img src="https://www.splitspot.com/wp-content/uploads/2022/03/Williamsburg-Bridge-scaled.jpg"alt="Williamsburg Bridge at night"
+          style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade">
+        <div class="numbertext">2/4</div>
+        <img src="https://cdn.theculturetrip.com/wp-content/uploads/2018/12/kbnpww.jpg"alt="Mona Lisa of Williamsburg" style="width:100%">
+        <div class="text"></div>
+      </div>
+
+      <div class="mySlides fade" style="width:100%">
+        <div class="numbertext">3/4</div>
+        <img src="https://media.cntraveler.com/photos/6344aa51b67e8cc6076f4042/master/pass/Bedford%20Avenue,%20Williamsburg_CWJN51.jpg"alt="Bedford Train Station"
+          style="width:100%">
+        <div class="text"></div>
+      </div>
+      
+  <div class="mySlides fade" style="width:100%">
+        <div class="numbertext">4/4</div>
+        <img src="https://patch.com/img/cdn20/getty/23773254/20211119/122551/styles/patch_image/public/gettyimages-1055874276___19115150926.jpg"alt="City Streets"
+          style="width:100%">
+        <div class="text"></div>
+      </div>
+      
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+
+    <script>
+      let slideIndex = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000);
+      }
+    </script
+    
+  </header>
+    <div class="section1">
+    <h2 class="t1">About Williamsburg, Brooklyn</h2>
+    <p class="info1">Williamsburg is one of many neighborhoods in Brooklyn, New York. It is one of the most popular neighborhoods in Brooklyn and it's known for it's lively, artistic environment. There are plenty of places such restaurants, cafes, vintage shops, and parks to enjoy throughout your day. Here you will be able to have a beautiful view of the Manhattan skyline. The population of Williamsburg is about 151,061 residents and there are an estimate of 61,337 housing units. Majority of the residents in Williamsburg, around 80 to 87 percent, rent apartments rather than own them. The rent in this neighborhood on average is 3,500 dollars. </p>
+      
+  <div class="row">
+     <div class="img"><img src="https://images1.loopnet.com/i2/k4x6nSslQifP_6GqOEu2YIS9V-UU0mNtzbXOL4mI-rg/110/187-Bedford-Ave-Brooklyn-NY-Primary-Photo-1-Large.jpg" alt="Bedford Street">
+       </div>
+      <div class="img"><img src="https://untappedcities.com/wp-content/uploads/2021/11/Domino-Park-Williamsburg-waterfront-Brooklyn-NYC.jpg" alt="Domino Park">
+      </div>
+    </div>
+      
+  <div class= "link1">
+     <a href="https://furmancenter.org/neighborhoods/view/greenpoint-williamsburg">Williamsburg Neighborhood Statistics</a>
+  </div>
+    
+  <hr>
+  <div class="section">
+    <h2 class="t1">Applying to Rent an Apartment? </h2>
+    <p class="info2">Applying to rent an apartment in Williamsburg, or anywhere in NYC can be a hard and chaotic process to start with strict landlords and competition in the housing market. Here is the information you'll need to make this process easier.</p>
+    
+  <h3>Deciding Your Budget and Area</h3>
+  <p class="info2">Deciding on what you can afford is a very important step to take in this process. You do not want to spend your time looking at places that are out of your price range. You have to find the neighborhood that fulfill requirements and within your budget. </p>
+  <h3>Requirements</h3>
+    <p class="info2"> Here are the list of documents that are required to rent an apartment besides the information to fill the application .</p>
+    <ul>
+      <li>Pay Stubs</li>
+      <li>Letter of Employment</li>
+      <li>Letter of Recommendation from previous landlord(not always a requirement,but good to have)</li>
+      <li>Tax Returns</li>
+      <li>Bank statements</li>
+      <li>Photo ID</li>
+      <li>Good Credit Score</li>  
+      <li> Having an income of 35-50 times the monthly rent</li>
+    </ul>
+  <iframe width="540" height="310" src="https://www.youtube.com/embed/CtfNjX8ivyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+    <h3> Don't Have A Good Credit Score?</h3>
+    <p class="info2"> The average credit score that most landlords qualify as a good credit score is 650 and more. If your credit score is low, there are a few things you could do to still be able to apply to rent an apartment.</p>
+    <ul>
+      <li>Find someone with a good credit score and income to co-sign 
+      </li>
+      <p>Having someone to co-sign assures the landlord of your responsibility financially.It guarantees that the rent will be payed. Learn about co-signing before doing so.</p> <a href="https://homeguides.sfgate.com/cosigning-apartment-lease-affect-credit-41318.html">Does Co-Signing Affect My Credit</a>
+      <hr>
+      
+      <li>Private Landlords</li>
+      <p>Since private landlords own the property they are putting out for rent, their rules and requirements could be more flexible. Not all private landlords necessarily look at credit score.</p>
+      <li>Income Statements</li>
+      <p> Showing income statments could change your situations because it will further on support your financial stability.</p>
+    </ul>
+    
+    <h3> Closing the Deal</h3>
+    <p class="info2"> After you submit your application for the apartment you want and get accepted, sign the lease. Read over the lease attentively and address the landlords with any concerns you have. Lastly, schedule your move in. 
+      <hr>
+    <a href="https://www.nyc.gov/content/tenantprotection/pages/new-protections-for-all-tenants"> Learn About Your Rights as Tenants</a>
+      
+  </div> 
+  <hr> 
+  <div class="section3">
+    <h2 class="t1"> Housing Websites </h2>
+    <h4> Finding websites you feel comfortable using to find apartments for rent anywhere in New York City can be difficult. Down below are listed websites that are reliable: </h4>
+    <ul>
+    <il class= "info3"><a href="https://streeteasy.com/">StreetEasy.com</a>
+    <p>(Not anyone could post on this website, only agents registered with the New York Department of State Division of License.)</p>
+      
+    <il class= "info3"><a href= "https://www.zillow.com/">Zillow.com</a>
+    <p>(Zillow is know to be one of the best rental websites. This website allows listings that aren't on other websites.This means people could list theu]ir home without working with an agent.)</p>
+
+      <il class="info3"><a href="https://www.realtor.com/rentals">Realtor.com</a></il><p>(Realtor.com is known for it's accuracy. It shows updated listings constantly.)</p>
+      
+    </ul>
+  </div>
+
+</body>
+
+</html>
